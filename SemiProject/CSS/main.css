@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+html,
+body {
+    background: white;
+}
+
+h4 {
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* header part  */
+
+header #TopHeader {
+    padding: 0;
+    background-color: #568a35;
+}
+
+#TopHeader .topheader {
+    position: relative;
+}
+
+header #TopHeader .row .line-left h6 {
+    padding: 15px 0 10px;
+}
+
+header #TopHeader .row .line-right h6 {
+    padding: 15px 0 10px;
+}
+
+header #TopHeader .line-right {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+header #TopHeader .line-right h6 {
+    padding: 0px;
+}
+
+#dag {
+    padding-top: 15px;
+    color: white;
+}
+
+header #TopHeader h6 {
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 0;
+}
+
+header #MainHeader {
+    padding: 0;
+    background-color: #7db249;
+}
+
+#MainHeader navbar a img {
+    padding-top: 15px;
+    padding-bottom: 19px;
+}
+
+#MainHeader ul.navbar-nav li a {
+    font-size: 11px;
+    line-height: 11px;
+    padding: 22px !important;
+}
+
+#MainHeader ul.navbar-nav li a:hover {
+    color: #0da7a3;
+}
+
+#MainHeader ul.navbar-nav li.active a,
+#MainHeader ul.navbar-nav li a:hover {
+    text-decoration: underline;
+}
+
+#MainHeader ul.navbar-nav li:last-child a {
+    padding-right: 0 !important;
+}
+
+nav.navbar.navbar-expand-lg.container {
+    padding: 0;
+}
+
+
+/* header end */
+
+
+/* section one */
+
+#section-one {
+    height: 300px;
+    background: url("../img/main-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#section-one::after {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+#section-one .banner-warp {
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#section-one .container,
+#section-one .container,
+.row {
+    height: 100%;
+}
+
+
+/* section two */
+
+#section-two {
+    height: 300px;
+    background: url("../img/bg2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#section-two .container,
+#section-two .container,
+.row {
+    height: 100%;
+}
+
+#section-two .banner-warp p {
+    padding-top: 20px;
+}
+
+#section-three {
+    height: 300px;
+    background: white;
+    background-position: center;
+    background-size: cover;
+}
+
+#section-three .container,
+#section-three .container,
+.row {
+    height: 100%;
+}
+
+
+/* section four */
+
+#section-four {
+    height: 300px;
+    background: url("../img/bg-wigth-glasssss.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#section-four .container,
+#section-four .container,
+.row {
+    height: 100%;
+}
+
+#section-four .container h2 {
+    padding-top: 58px;
+}
+
+#section-four .container h6 {
+    padding-top: 10px;
+}
+
+#rangs ul {
+    height: 100%;
+}
+
+#section-four .container p {
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+
+/* last section */
+
+#last-section h3 {
+    font-size: 29px;
+    line-height: 16px;
+    padding-top: 60px;
+}
+
+#last-section p {
+    font-size: 10px;
+    line-height: 16px;
+    padding-top: 60px;
+}
+
+span {
+    color: #90c43e;
+}
+
+#last-section a {
+    font-size: 10px;
+    line-height: 16px;
+    color: #90c43e;
+    padding-top: 46px;
+}
+
+#last-section .container .row {
+    padding-top: 15px;
+}
+
+
+/* footre part  */
+
+.footer #MainFooter {
+    padding-top: 50px;
+}
+
+.footer #MainFooter p {
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 0;
+}
+
+#social a {
+    color: #90c43e;
+    padding: 12px;
+}
+
+.footer #MainFooter h4 {
+    color: #90c43e;
+    padding-bottom: 30px;
+}
+
+#images {
+    padding-bottom: 30px;
+}
+
+#DownFooter {
+    background: #90c43e;
+}
+
+#footer-image {
+    padding-bottom: 30px;
+}
+
+.footer #DownFooter h6 {
+    font-size: 10px;
+    line-height: 14px;
+    margin-bottom: 0;
+}
+
+.footer #DownFooter h6:first-child {
+    padding-top: 30px;
+}
+
+.footer #DownFooter h6:last-child {
+    padding-bottom: 30px;
+    color: white;
+}
+
+#social {
+    padding-top: 8px;
+}

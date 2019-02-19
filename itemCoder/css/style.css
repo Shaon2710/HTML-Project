@@ -1,0 +1,52 @@
+/* ========================== header css start  ==============================*/
+
+header {
+    background: white;
+    width: 100%;
+}
+
+#logo {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+header .col-md-8 {
+    padding-top: 30px;
+}
+
+#main-menu ul li a {
+    padding: 20px;
+}
+
+#login-reg {
+    padding-top: 30px;
+}
+
+
+/* ========================== header css end  ==============================*/
+
+
+/* ========================== Section css start ============================== */
+
+
+/* ========================== Section css end  ==============================*/
+
+
+/* ==========================footer css start ============================== */
+
+footer {
+    background: white;
+    width: 100%;
+}
+
+footer p {
+    color: black;
+    padding-top: 10px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+
+/* ==========================footer css end ============================== */
