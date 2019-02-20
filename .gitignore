@@ -1,2 +1,4 @@
-/node_modules
+\node_modules
 New Text Document.txt
+\package.json
+\package-lock.json
