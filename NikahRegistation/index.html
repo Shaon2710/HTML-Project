@@ -5,10 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nikah Registation</title>
+
+    <link rel="stylesheet" media="screen" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="css/main.css">
 </head>
 <body>
-    <div>
+    <div class="container">
         <h1>Welcome to Nikah Registation</h1>
     </div>
+
+
+<div id="user" class="container center">
+   <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary Center" data-toggle="modal" data-target="#UserModalCenter">
+    User Login
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="UserModalCenter" tabindex="-1" role="dialog" aria-labelledby="UserModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="UserModalLongTitle">Log IN Your ID</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                  <label for="UserInputEmail">Email address</label>
+                  <input type="email" class="form-control" id="UserInputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="UserInputPassword">Password</label>
+                  <input type="password" class="form-control" id="UserInputPassword" placeholder="Password">
+                </div>
+                
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="admin" class="container center">
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary Center" data-toggle="modal" data-target="#AdminModalCenter">
+   Admin Login
+ </button>
+ 
+ <!-- Modal -->
+ <div class="modal fade" id="AdminModalCenter" tabindex="-1" role="dialog" aria-labelledby="AdminModalCenterTitle" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="AdminModalLongTitle">Log IN Your ID</h5>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <div class="modal-body">
+           <form>
+               <div class="form-group">
+                 <label for="AdminInputEmail">Email address</label>
+                 <input type="email" class="form-control" id="AdminInputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+               </div>
+               <div class="form-group">
+                 <label for="AdminInputPassword">Password</label>
+                 <input type="password" class="form-control" id="AdminInputPassword" placeholder="Password">
+               </div>
+               
+             </form>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         <button type="button" class="btn btn-primary">Login</button>
+       </div>
+     </div>
+   </div>
+ </div>
+</div>
+
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
