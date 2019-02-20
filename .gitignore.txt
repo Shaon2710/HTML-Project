@@ -1,2 +1,0 @@
-NikahRegistation/node_modules
-New Text Document.txt
